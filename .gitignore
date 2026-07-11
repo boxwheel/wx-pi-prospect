@@ -4,3 +4,4 @@ __pycache__/
 .env
 *.zip
 code/fwenv.sh
+data/
