@@ -1,0 +1,204 @@
+{
+  "global": {
+    "cols": [
+      "dt",
+      "LandAverageTemperature",
+      "LandAverageTemperatureUncertainty",
+      "LandMaxTemperature",
+      "LandMaxTemperatureUncertainty",
+      "LandMinTemperature",
+      "LandMinTemperatureUncertainty",
+      "LandAndOceanAverageTemperature",
+      "LandAndOceanAverageTemperatureUncertainty"
+    ],
+    "rows": 3192,
+    "range": [
+      "1750-01-01",
+      "2015-12-01"
+    ],
+    "nulls": {
+      "dt": 0,
+      "LandAverageTemperature": 12,
+      "LandAverageTemperatureUncertainty": 12,
+      "LandMaxTemperature": 1200,
+      "LandMaxTemperatureUncertainty": 1200,
+      "LandMinTemperature": 1200,
+      "LandMinTemperatureUncertainty": 1200,
+      "LandAndOceanAverageTemperature": 1200,
+      "LandAndOceanAverageTemperatureUncertainty": 1200
+    }
+  },
+  "country": {
+    "cols": [
+      "dt",
+      "AverageTemperature",
+      "AverageTemperatureUncertainty",
+      "Country",
+      "Year",
+      "Decade"
+    ],
+    "rows": 577462,
+    "n_countries": 243,
+    "continent_entries_present": [
+      "Africa",
+      "Asia",
+      "Europe",
+      "North America",
+      "South America",
+      "Antarctica"
+    ],
+    "range": [
+      "1743-11-01",
+      "2013-09-01"
+    ],
+    "nulls": {
+      "dt": 0,
+      "AverageTemperature": 32651,
+      "AverageTemperatureUncertainty": 31912,
+      "Country": 0,
+      "Year": 0,
+      "Decade": 0
+    },
+    "countries_per_decade": {
+      "1740": 50,
+      "1750": 54,
+      "1760": 58,
+      "1770": 60,
+      "1780": 69,
+      "1790": 76,
+      "1800": 79,
+      "1810": 88,
+      "1820": 137,
+      "1830": 120,
+      "1840": 171,
+      "1850": 218,
+      "1860": 225,
+      "1870": 229,
+      "1880": 237,
+      "1890": 238,
+      "1900": 240,
+      "1910": 240,
+      "1920": 240,
+      "1930": 240,
+      "1940": 242,
+      "1950": 242,
+      "1960": 242,
+      "1970": 242,
+      "1980": 242,
+      "1990": 242,
+      "2000": 242,
+      "2010": 242
+    }
+  },
+  "state": {
+    "cols": [
+      "dt",
+      "AverageTemperature",
+      "AverageTemperatureUncertainty",
+      "State",
+      "Country"
+    ],
+    "rows": 645675,
+    "n_states": 241,
+    "countries_with_states": [
+      "Brazil",
+      "Russia",
+      "United States",
+      "Canada",
+      "India",
+      "China",
+      "Australia"
+    ]
+  },
+  "majorcity": {
+    "cols": [
+      "dt",
+      "AverageTemperature",
+      "AverageTemperatureUncertainty",
+      "City",
+      "Country",
+      "Latitude",
+      "Longitude",
+      "Year",
+      "Decade"
+    ],
+    "rows": 239177,
+    "n_cities": 100,
+    "range": [
+      "1743-11-01",
+      "2013-09-01"
+    ],
+    "has_latlong": true,
+    "cities_per_decade": {
+      "1740": 13,
+      "1750": 15,
+      "1760": 16,
+      "1770": 16,
+      "1780": 16,
+      "1790": 35,
+      "1800": 37,
+      "1810": 41,
+      "1820": 58,
+      "1830": 65,
+      "1840": 84,
+      "1850": 98,
+      "1860": 93,
+      "1870": 98,
+      "1880": 100,
+      "1890": 100,
+      "1900": 100,
+      "1910": 100,
+      "1920": 100,
+      "1930": 100,
+      "1940": 100,
+      "1950": 100,
+      "1960": 100,
+      "1970": 100,
+      "1980": 100,
+      "1990": 100,
+      "2000": 100,
+      "2010": 100
+    }
+  },
+  "city": {
+    "cols": [
+      "dt",
+      "AverageTemperature",
+      "AverageTemperatureUncertainty",
+      "City",
+      "Country",
+      "Latitude",
+      "Longitude"
+    ],
+    "has_latlong": true
+  },
+  "daily": {
+    "cols": [
+      "Region",
+      "Country",
+      "State",
+      "City",
+      "Month",
+      "Day",
+      "Year",
+      "AvgTemperature"
+    ],
+    "rows": 2906327,
+    "n_cities": 321,
+    "n_countries": 125,
+    "year_min": 200,
+    "year_max": 2020,
+    "regions": [
+      "Africa",
+      "Asia",
+      "Australia/South Pacific",
+      "Europe",
+      "Middle East",
+      "North America",
+      "South/Central America & Carribean"
+    ],
+    "sentinel_99": 79672,
+    "year_200_rows": 89,
+    "day_0_rows": 8
+  }
+}
