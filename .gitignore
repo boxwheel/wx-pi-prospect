@@ -5,3 +5,5 @@ __pycache__/
 *.zip
 code/fwenv.sh
 data/
+
+data
