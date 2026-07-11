@@ -34,6 +34,13 @@ The slate and all 10 surviving candidate idea nodes live in the Flywheel graph u
 9. **J25** — Interannual temperature *variance decreased* for some regions while the mean rose. [Distributional]
 10. **J26** — Anomaly-distribution *skewness changed sign* over the record. [Distributional]
 
+## Graph location (Flywheel)
+
+- **Slate node (terminal):** `e2faef06-49e7-5f1f-a7f0-1950cc117e57` — carries the handoff block for the campaign daemon; parented on all four Foundation nodes.
+- **10 candidate idea nodes** are children of the slate, each multi-parented on the Foundation nodes it draws on (data-manifest / landscape / rubric), each with its own `Cluster:` lane tag.
+- Campaign root: `d8fba110-3124-5f4a-be55-630d2da6b301` (campaign id `cp_60fb4891`).
+- Latest repo commit: `511194b`.
+
 ## Method discipline
 
 - **Registered priors written before looking.** No candidate prior quotes a measured value from these tables. Two candidates (A4, A5) were *killed* because their answer-shape was already observed during allowed coverage scouting — recorded to demonstrate ordering discipline (the gate audits this).
